@@ -1,0 +1,75 @@
+.container {
+  padding-top: 52px;
+  padding-bottom: 52px;
+  height: 100vh;
+}
+
+/**
+ * Global Nav
+ */
+
+.global-nav,
+.bottom-nav {
+  font-size: 30px;
+  font-weight: bold;
+  color: #acbfc4;
+}
+
+.global-nav .list {
+  display: flex;
+  line-height: 1em;
+}
+
+.global-nav .list-item + .list-item {
+  margin-left: 40px;
+}
+
+/**
+ * Bottom Nav
+ */
+
+.bottom-nav .list {
+  display: flex;
+  justify-content: flex-end;
+  line-height: 1em;
+}
+
+/**
+ * main
+ */
+
+.main {
+  position: relative;
+  height: 100%;
+  padding: 35px 0;
+}
+
+.main .cropbox {
+  height: 100%;
+  border-radius: 40px;
+  overflow: hidden;
+  background-image: url("/assets/img/mv.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+.main .title-box {
+  position: absolute;
+  /* + .mainのpadding */
+  bottom: calc(43px + 35px);
+  right: 40px;
+}
+
+.main .main-title {
+  line-height: 1em;
+  font-weight: bold;
+  color: #d4dbe1;
+  font-size: 135px;
+}
+
+.main .sub-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 36px;
+  color: #fff;
+}
